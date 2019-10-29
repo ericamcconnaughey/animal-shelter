@@ -16,13 +16,9 @@ h3 {
   color: darkslateblue;
   border: 2px darkslateblue solid;
 }
-.column {
-  float: left;
-  width: 30%;
-}
 
 .column p {
-  width: 300px;
+  width: 75%;
   color: lightgoldenrodyellow;
 }
 
@@ -33,7 +29,22 @@ h3 {
 }
 
 .column {
+  float: left;
+  width: 28%;
   background-color: darkolivegreen;
   border: 5px darkslategray solid;
   margin: 20px;
+}
+
+@media screen and (min-width: 700px) and (max-width: 1000px) {
+  .column {
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .column {
+    float: none;
+    width: 75%;
+  }
 }
