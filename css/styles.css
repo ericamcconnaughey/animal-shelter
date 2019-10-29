@@ -1,4 +1,39 @@
+body {
+  text-align: center;
+  background-color: lightsteelblue;
+}
+
+h1 {
+  color: darkslategrey;
+}
+
+h2 {
+  color: darkolivegreen;
+}
+
+h3 {
+  background-color: lightgoldenrodyellow;
+  color: darkslateblue;
+  border: 2px darkslateblue solid;
+}
 .column {
   float: left;
-  width: 30%; 
+  width: 30%;
+}
+
+.column p {
+  width: 300px;
+  color: lightgoldenrodyellow;
+}
+
+.column h4 {
+  font-family: serif;
+  color: lightgoldenrodyellow;
+  text-align: center;
+}
+
+.column {
+  background-color: darkolivegreen;
+  border: 5px darkslategray solid;
+  margin: 20px;
 }
